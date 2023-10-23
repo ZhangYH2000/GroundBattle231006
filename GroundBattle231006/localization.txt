@@ -1,0 +1,52 @@
+title $地面对战框架$ $Ground Battle Framework$
+frm_tm $[ZhangYH] 帧时间: $ $[ZhangYH] Frame Time: $
+bt_save $保存$ $Save$
+bt_load $载入$ $Load$
+fpn_global $全局$ $Global$
+compile $解释并运行$ $Interpret & Run$
+fpn_cmd $指令$ $Command$
+unnamed_par $未命名$ $Unnamed$
+bt_del_par $删除$ $Del.$
+bt_add_par $新建参数$ $Create Param.$
+fpn_par $参数$ $Parameters$
+fpn_lang $语言/Lang.$ $Language$
+fpn_about $关于$ $About$
+default_terrain $默认$ $Default$
+grid_pos $网格: $ $Grid: $
+lb_cam $摄像机: $ $Cam: $
+start $启动$ $Start$
+pause $暂停$ $Pause$
+mute $静音$ $Mute$
+bt_sv_cmd $仅保存$ $Save Only$
+unmute $解除静音$ $Unmute$
+render_3d $渲染: 3D$ $Render: 3D$
+render_2d $渲染: 2D$ $Render: 2D$
+control_player $控制: 玩家$ $Ctrl: Player$
+control_ai $控制: 电脑$ $Ctrl: AI$
+mode_edit $模式: 编辑$ $Mode: Edit$
+mode_observe $模式: 观察$ $Mode: Obs.$
+cb_auto_follow $自动跟随: $ $Auto Follow: $
+n_kill $杀敌数: $ $Num. Killed: $
+kill $你杀死了一名敌方战士! $ $You haved killed an enemy soldier! $
+killed $你被杀死了. $ $You haved been killed. $
+send $你输出了 $ $You have caused $
+receive $你受到了 $ $You have received $
+melee_dmg $ 点近战伤害. $ $ melee damage. $
+ranged_dmg $ 点远程伤害. $ $ ranged damage. $
+
+about_txt
+$这是一个 2D 地面对战模拟程序. 有基本的近战和远程单位, 可以实时编辑网格地图. 用光线投射算法实现了 3D 渲染. 用户可以用脚本语言自定义地形, 阵营和单位数据. 用户可选定地图上的单位, 通过它的视角观察对战. 尽管操作不便, 这个程序的确支持玩家自行控制选定的对象加入战斗. 
+
+下面是鼠标和键盘的操作. 在玩家操控模式下: 用 [WASD] 行走, 用 [QE] 转向, 用 [RF] 升降高度, 用 [鼠标左键] 进行攻击, 按住 [鼠标右键] 可以以更慢的速度转向, 用 [鼠标滚轮] 缩放画面. 在 2D 观察模式下, 用 [鼠标左键] 可以选定地图上的对象, 以便在 3D 模式中跟随. 还有一些快捷键可以实现其它功能.
+
+这个程序正处于一个非常早期的版本, 很多功能都十分简陋, 而且可能不会像大多数用户期待的那样运行. 事实上, 没有看过具体实现的话, 用户几乎不可能正确的进行存档与读档, 更别说编辑数据了. 尽管如此, 你还是可以参考程序附带的代码片段和示例存档, 尝试在其基础上微调. 
+
+这个程序有非常多不足之处: AI 和导航算法很简陋; 动画非常抽象; 没有音效; 缺少吸引人的机制和剧情等. 以后有机会的话我会改进这些地方. 如果你有建议或想要交流, 非常欢迎留下评论! 祝身体健康, 心情愉快! (2023/10/23)$
+
+$(Translated by ChatGPT) This is a 2D ground-based combat simulation program. It includes basic melee and ranged units and allows real-time editing of grid maps. 3D rendering is achieved through ray-tracing algorithms. Users can customize terrain, factions, and unit data using a scripting language. Users can select units on the map and observe battles from their perspective, even though the controls may not be very user-friendly. This program does indeed support players taking control of selected objects and joining the battles.
+
+Here are the mouse and keyboard controls. In player control mode: use [WASD] to move, [QE] to rotate, [RF] to adjust height, [left mouse button] to attack, hold [right mouse button] to turn more slowly, and use [mouse scroll wheel] to zoom in and out. In 2D observation mode, use the [left mouse button] to select objects on the map for 3D mode following. There are also some hotkeys for other functions.
+
+This program is in a very early version, and many features are quite basic. It may not run as expected by most users. In fact, without seeing the specific implementation, users will find it nearly impossible to correctly save, load, or edit data. However, you can still refer to the program's included code snippets and sample saves to make adjustments based on them.
+
+There are numerous shortcomings in this program: rudimentary AI and navigation algorithms, abstract animations, lack of sound effects, and a deficiency in engaging mechanics and a storyline, among other things. If there is an opportunity in the future, I will improve these areas. If you have suggestions or want to discuss, please feel free to leave a comment! Wishing you good health and a happy mood! (2023/10/23)$
